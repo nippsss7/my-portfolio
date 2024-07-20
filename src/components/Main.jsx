@@ -2,7 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div className='air-bg md:m-lg my-[2rem]'>
+    <div className='air-bg md:m-lg my-[2rem] py-[1.5rem]'>
       <div className="container w-[75%] md:ml-[19%] m-auto flex md:flex-row flex-col items-center gap-4 md:pt-[5rem] pt-[4rem] md:pb-[3rem] pb-[2rem] font-bold">
         <div className=' w-full rounded-full border-2 '>
           <img className='main-pic border-[#45474B] cursor-pointer transition-all duration-300 rounded-full hover:scale-[1.02]' src="main-pic.jpg" alt="" />
@@ -21,7 +21,7 @@ const Main = () => {
             </a>
           </div>
         </div>
-        <div className="flex px-[5rem]">
+        <div className="flex md:px-[5rem] px-[3.5rem]">
             <ul className='flex md:flex-col flex-row gap-5'>
               <li> <a href=""> <img className='w-[5.5rem] hover:scale-110 duration-300' src="icons/github.png" alt="" /> </a></li>
               <li> <a href=""> <img className='w-[5.5rem] hover:scale-110 duration-300' src="icons/linkedin.png" alt="" /> </a></li>

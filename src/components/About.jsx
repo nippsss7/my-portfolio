@@ -2,14 +2,14 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div id='about' className='air-bg my-[4rem] md:pl-[4rem] pt-[4rem] pb-[5rem] flex flex-col gap-5 w-[80%] m-auto'>
+        <div id='about' className='air-bg my-[4rem] md:pl-[4rem] pt-[3rem] pb-[2rem] flex flex-col gap-5 w-[80%] m-auto'>
             <p className="text-center">Get to Know more</p>
             <h1 className="text-center text-5xl font-bold">About Me</h1>
             {/* <hr/> */}
             <div className="flex md:flex-row flex-col my-10">
                 
-                <div className='w-3/4 m-auto'>
-                    <img className='secondPic rounded-3xl' src="second-pic.jpg" alt="" />
+                <div className='md:w-3/4 w-[90%] m-auto'>
+                    <img className='secondPic w-[100%] m-auto rounded-3xl' src="second-pic.jpg" alt="" />
                 </div>
                 <div>
                     <div className='flex font-bold justify-around w-full md:pl-[2rem] pt-[3rem] pb-[2rem]'>

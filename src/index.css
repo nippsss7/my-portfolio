@@ -17,7 +17,7 @@ body{
     border-radius: 3rem;
     /* border: 1px #00000061 solid; */
     box-shadow: rgba(0, 0, 0, 0.642) 1px 3px 20px -9px;
-    padding-block: 1.5rem;
+    /* padding-block: 1.5rem; */
     transition: 0.4s ease all;
 }
 .air-bg:hover{

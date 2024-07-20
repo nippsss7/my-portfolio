@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div id='home'>
-      <nav className='air-bg my-[1rem] md:my-[2rem] flex items-center justify-between px-[2rem] md:px-[7rem] py-[1rem] border  border-b-slate-200 '>
+      <nav className='air-bg my-[1rem] md:my-[2rem] flex items-center justify-between px-[2rem] md:px-[7rem] py-[1.5rem] border  border-b-slate-200 '>
         <h1 className='font-extrabold text-3xl text-[#ff7d1a]'>𐌍𐌔</h1>
         <ul className='hidden md:flex items-center text-xl text-center'>
           <li className='hover:scale-90 w-[7rem] effects'><a href="#home">Home</a></li>
