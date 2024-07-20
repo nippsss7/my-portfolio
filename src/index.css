@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #45474B;
+    transition: all 0.4s ease;
+}
+.air-bg{
+    width: 88%;
+    margin-inline: auto;
+    background: white;
+    border-radius: 3rem;
+    /* border: 1px #00000061 solid; */
+    box-shadow: rgba(0, 0, 0, 0.642) 1px 3px 20px -9px;
+    padding-block: 1.5rem;
+    transition: 0.4s ease all;
+}
+.air-bg:hover{
+    transform: scale(1.015);
+    
+    box-shadow: rgba(0, 0, 0, 0.642) 1px 3px 20px -5px;
+}
+.m-lg{
+    margin-block: 4rem;
+}
+.project-bg{
+    box-shadow: rgba(0, 0, 0, 0.642) 1px 3px 20px -9px;
+}
+
+
+
+button{
+    transition: 0.4s all ease;
+}
+button:hover{
+    background-color:#ff7d1a;
+    transform: scale(1.05);
+    border: none
+}
+.effects{
+    transition: 0.4s all ease;
+    cursor: pointer;
+}
+.secondPic{
+    width: 95%;
+}
+.main-pic{
+    border-width: 5px;
+}
+
+.iconHover:hover svg{
+    fill: white;
+}
