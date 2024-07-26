@@ -23,8 +23,8 @@ const Main = () => {
         </div>
         <div className="flex md:px-[5rem] px-[3.5rem]">
             <ul className='flex md:flex-col flex-row gap-5'>
-              <li> <a href=""> <img className='w-[5.5rem] hover:scale-110 duration-300' src="icons/github.png" alt="" /> </a></li>
-              <li> <a href=""> <img className='w-[5.5rem] hover:scale-110 duration-300' src="icons/linkedin.png" alt="" /> </a></li>
+              <li> <a href="https://github.com/nippsss7" target='_blank'> <img className='w-[5.5rem] hover:scale-110 duration-300' src="icons/github.png" alt="" /> </a></li>
+              <li> <a href="https://www.linkedin.com/in/nippun-singla-b37861267/" target='_blank'> <img className='w-[5.5rem] hover:scale-110 duration-300' src="icons/linkedin.png" alt="" /> </a></li>
               <li> <a href=""> <img className='w-[5.5rem] hover:scale-110 duration-300' src="icons/instagram.png" alt="" /> </a></li>
             </ul>
           </div>
