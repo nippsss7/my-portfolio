@@ -61,15 +61,15 @@ const Contact = () => {
             <p className="text-center">Get in Touch</p>
             <h1 className="text-center text-5xl font-bold">Contact Me</h1>
             <div className="flex md:flex-row flex-col py-[3rem]">
-                <div className='md:w-1/2 w-full py-[4rem] mb-[2rem] md:mb-0 project-bg rounded-3xl hover:scale-[1.03] duration-300 h-auto bg-[#ff892f] text-white'>
+                <div className='ltr md:w-1/2 w-full py-[4rem] mb-[2rem] md:mb-0 project-bg rounded-3xl hover:scale-[1.03] duration-300 h-auto bg-[#ff892f] text-white'>
                     <div className="flex flex-col items-center justify-center h-full">
                         <h1 className='text-2xl font-bold mb-8'>Find Me</h1>
                         <p className='mb-2 font-bold'>nippunsingla07@gmail.com</p>
                         <p className='font-bold'>9872048751</p>
                     </div>
                 </div>
-                <hr className='relative w-1/5 top-[9rem] rotate-90 border-1 border-slate-300' />
-                <div className='md:w-1/2 w-full project-bg p-5 hover:scale-[1.03] duration-300 rounded-3xl bg-red'>
+                <hr className='relative sm:hidden lg:block w-0 md:w-1/5 top-[12rem] rotate-90 border-1 border-slate-300' />
+                <div className='rtl md:w-1/2 w-full project-bg p-5 hover:scale-[1.03] duration-300 rounded-3xl bg-red'>
                     <div className="flex flex-wrap md:p-5 pb-0 gap-5 ">
 
                         <form className='flex flex-wrap md:p-5 pb-0 pt-[1rem] gap-5' action="https://api.web3forms.com/submit" method="POST">

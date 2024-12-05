@@ -2,8 +2,8 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div className='air-bg md:m-lg my-[2rem] py-[1.5rem]'>
-      <div className="container w-[75%] md:ml-[19%] m-auto flex md:flex-row flex-col items-center gap-4 md:pt-[5rem] pt-[4rem] md:pb-[3rem] pb-[2rem] font-bold">
+    <div className='animate air-bg md:m-lg my-[2rem] py-[1.5rem]'>
+      <div className="animate-hold container w-[75%] md:ml-[19%] m-auto flex md:flex-row flex-col items-center gap-4 md:pt-[5rem] pt-[4rem] md:pb-[3rem] pb-[2rem] font-bold">
         <div className=' w-full rounded-full border-2 '>
           <img className='main-pic border-[#45474B] cursor-pointer transition-all duration-300 rounded-full hover:scale-[1.02]' src="main-pic.jpg" alt="" />
         </div>
